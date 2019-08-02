@@ -20,8 +20,15 @@
 }
 
 .navbar {
-   margin-top: 40px;
-   margin-left: 740px;
+   position: absolute;
+   right: 40px;
+   top: 40px;
+}
+
+.goTop {
+   position: fixed;
+   right: 40px;
+   bottom: 20px;
 }
 
 .section-01 {
@@ -61,11 +68,6 @@ a:hover img {
    filter: alpha(opacity=70);
    -moz-opacity: .7;
    opacity: .7;
-}
-
-.section-02 {
-   vertical-align: middle;
-   height: 100vh;
 }
 
 .section-02 img {
