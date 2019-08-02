@@ -7,7 +7,7 @@
    height: 30vh;
    display: flex;
    position: relative;
-   background-color: green;
+   background-color: #51b688;
 }
 
 .item p {
@@ -25,7 +25,7 @@
 }
 
 .section-01 {
-   background-color: green;
+   background-color: #51b688;
    height: 70vh;
    text-align: center;
 }
@@ -57,10 +57,18 @@
    color: black;
 }
 
-.intro {
-   font-family: 'Istok Web', sans-serif;
-   font-size: 15px;
-   color: white;
-   width: 20vh;
-   text-align: center;
+a:hover img {
+   filter: alpha(opacity=70);
+   -moz-opacity: .7;
+   opacity: .7;
+}
+
+.section-02 {
+   vertical-align: middle;
+   height: 100vh;
+}
+
+.section-02 img {
+   width: 100%;
+   height: auto;
 }
