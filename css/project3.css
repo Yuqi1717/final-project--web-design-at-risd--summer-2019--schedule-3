@@ -7,7 +7,7 @@
    height: 30vh;
    display: flex;
    position: relative;
-   background-color: #424750;
+   background-color: #f5a744;
 }
 
 .item p {
@@ -32,7 +32,7 @@
 }
 
 .section-01 {
-   background-color: #424750;
+   background-color: #f5a744;
    height: 70vh;
    text-align: center;
 }
@@ -70,7 +70,14 @@ a:hover img {
    opacity: .7;
 }
 
+.section-02 {
+   margin-left: 40px;
+   margin-right: 30px;
+}
+
 .section-02 img {
    width: 100%;
    height: auto;
+   margin-top: 30px;
+   margin-bottom: 20px;
 }
